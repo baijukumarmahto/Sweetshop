@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Ch 7 part 7
+</title>
+<style>
+header{
+width:100%;
+height:60px;
+float:left;
+box-sizing:border-box;
+}
+body{
+margin:0;
+padding:0;
+}
+#one{
+padding:0;
+margin:0;
+float:left;
+margin-left:30px;
+}
+#Ram{
+float:right;
+font-size:19px;
+margin-right:30px;
+}
+
+nav{
+width:100%;
+height:100px;
+background-color:green;
+float:left;
+box-sizing:border-box;
+padding:20px;
+}
+
+#search{
+width:350px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:non;
+font-size:20px;
+padding:10px;
+}
+
+#Baiju{
+width:100px;
+height:40px;
+float:left;
+box-sizing:border-box;
+border:none;
+margin-left:2px;
+font-size:20px;
+}
+
+#table-tag{
+width:600px;
+height:40px;
+float:right;
+box-sizing:border-box;
+}
+
+#table-td{
+background-color:white;
+font-size:25px;
+text-align:center;
+width:20%;
+}
+
+a{
+text-decoration:none;
+color:black;
+font-family:sans-serif;
+}
+
+section{
+width:100%;
+height:1680px;
+float:left;
+box-sizing:border-box;
+border-color:red;
+border-style:solid;
+border-width:2px;
+padding:20px;
+}
+
+#Address{
+float:left;
+font-size:20px;
+font-family:sans-serif;
+}
+
+#Phon{
+float:right;
+font-size:20px;
+font-family:sans-serif;
+}
+
+#sri{
+width:750px;
+height:550px;
+float:left;
+background-color:blue;
+box-sizing:border-box;
+margin:20px;
+}
+
+#popular{
+color:white;
+text-align:center;
+font-family:sans-serif;
+font-size:30px;
+}
+
+#popular-sweets{
+width:300px;
+height:200px;
+margin:20px;
+border-width:5px;
+border-style:solid;
+border-color:yellow;
+box-sizing:border-box;
+}
+
+#rate-list{
+width:450px;
+height:550px;
+box-sizing:border-box;
+float:right;
+margin-top:28px;
+}
+
+#sweets-header{
+height:50px;
+background-color:black;
+color:white;
+text-align:center;
+font-size:25px;
+}
+
+#sweets-content{
+background-color:gray;
+}
+
+#s-Name{
+font-size:23px;
+padding:10px;
+color:white;
+border-bottom-width:2px;
+border-bottom-color:white;
+border-bottom-style:solid;
+}
+
+#Price{
+list-style:none;
+}
+
+fieldset{
+width:740px;
+height:580px;
+float:left;
+margin-top:10px;
+border-width:2px;
+border-style:solid;
+border-color:green;
+}
+
+legend{
+font-family:century gothic;
+font-size:30px;
+font-weight:bold;
+}
+
+#order-Online{
+font-family:sans-serif;
+font-size:20px;
+}
+
+#order-input{
+width:100%;
+height:35px;
+box-sizing:border-box;
+border-color:gray;
+border-width:2px;
+border-style:solid;
+margin-top:5px;
+}
+
+textarea{
+width:100%;
+height:100px;
+border-width:2px;
+border-color:gray;
+border-style:solid;
+box-sizing:border-box;
+}
+
+#submit-order{
+padding:10px;
+font-size:15px;
+float:right;
+border-color:gray;
+border-style:solid;
+box-sizing:border-box;
+background-color:yellow;
+}
+
+#abt-us{
+width:450px;
+height:580px;
+float:right;
+margin-top:25px;
+border-width:2px;
+border-style:solid;
+border-color:green;
+box-sizing:border-box;
+padding:20px;
+}
+
+#abut-stile{
+text-align:center;
+font-size:40px;
+padding:0;
+margin:0;
+font-family:sans-serif;
+color:red;
+}
+
+#abut-text{
+text-align:justify;
+font-size:23px;
+font-family:sans-serif;
+line-height:28px;
+}
+
+#mor-sweets{
+width:100%;
+float:left;
+box-sizing:border-box;
+}
+
+#more-sweets{
+text-align:center;
+font-family:sans-serif;
+font-size:40px;
+color:blue;
+}
+
+#sweets{
+width:220px;
+height:280px;
+border-color:gray;
+border-width:2px;
+border-style:solid;
+float:left;
+margin-left:38px;
+text-align:center;
+}
+
+#sweets-end{
+width:220px;
+height:280px;
+border-color:gray;
+border-width:2px;
+border-style:solid;
+float:right;
+text-align:center;
+}
+
+#sweets-pik{
+width:180px;
+height:180px;
+padding:25px;
+}
+
+#buy{
+padding:10px;
+border-color:gray;
+border-width:2px;
+border-style:solid;
+width:100px;
+background-color:green;
+}
+
+footer{
+width:100%;
+height:250px;
+background-color:black;
+box-sizing:border-box;
+float:left;
+}
+
+#contect-us{
+width:350px;
+height:250px;;
+box-sizing:border-box;
+float:left;
+padding-left:20px;
+}
+
+#social-link{
+width:250px;
+height:250px;
+box-sizing:border-box;
+float:right;
+padding-left:20px; 
+}
+
+#contact-link{
+color:white;
+text-align:center;
+}
+
+#Website{
+color:white;
+font-family:sans-serif;
+font-size:20px;
+margin-bottom:5px;
+}
+
+#logo{
+width:50px;
+}
+
+#developer{
+float:left;
+color:white;
+font-family:sans-serif;
+margin-top:200px;
+margin-left:100px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1 id="one">Sweets Shop.com</h1>
+<p id="Ram">The world largest sweets & bakeries Shop</p>
+</header>
+<nav>
+<form>
+<input type="search" name="search" placeholder="search the Sweets name"
+id="search">
+<input type="submit"
+id="Baiju">
+</form>
+
+<table id="table-tag">
+<tr>
+<td id="table-td"><a href="index.html">Home</a></td>
+<td id="table-td"><a href="sweets.html">Sweets</a></td>
+<td id="table-td"><a href="bakeries.html">Bakeries</a></td>
+<td id="table-td"><a href="#abt-us">About Us</a></td>
+<td id="table-td"><a href="#contact-link">Contact</a></td>
+</tr>
+</table>
+ </nav>
+
+<section>
+<address id="Address">
+Address: Ariary Cock , jhanjharpur , madhubani, bihar,847109
+</address>
+<address id="Phon">
+Phon No.:+91 9508585265  +91 95720141454
+</address>
+<div id="sri">
+<h1 id="popular">world popular sweets</h1>
+<img src ="image/a.jpg" alt="a" id="popular-sweets"/>
+<img src="image/b.jpg" alt="b" id="popular-sweets"/>
+<img src ="image/c.jpg" alt="c" id="popular-sweets"/>
+<img src="image/d.jpg" alt="d" id="popular-sweets"/>
+
+</div >
+<table id="rate-list" >
+<tr>
+<td id="sweets-header">Sweets Name</td>
+<td id="sweets-header">Price</td>
+</tr>
+
+<tr>
+<td id="sweets-content">
+<ol>
+<li id="s-Name">Rasgulla</li>
+<li id="s-Name">Gulabjabun</li>
+<li id="s-Name">Rasmaliyi</li>
+<li id="s-Name">Barfi</li>
+<li id="s-Name">Laddu</li>
+<li id="s-Name">Pera</li>
+<li id="s-Name">Bread</li>
+<li id="s-Name">Samosha</li>
+<li id="s-Name">Chori</li>
+</ol>
+</td>
+
+<td id="sweets-content">
+<ol id="Price">
+<li id="s-Name">500</li>
+<li id="s-Name">500</li>
+<li id="s-Name">650</li>
+<li id="s-Name">1000</li>
+<li id="s-Name">250</li>
+<li id="s-Name">800</li>
+<li id="s-Name">20</li>
+<li id="s-Name">12</li>
+<li id="s-Name">12</li>
+</ol>
+</td>
+</tr>
+</table>
+<fieldset id="fil-form">
+<legend>Online Order</legend>
+
+<form id="order-Online">
+Bayer Name<br>
+<input type="text" name="name" id="order-input"></input><br><br>
+Mobile No.<br>
+<input type="number" name="number" id="order-input"></input><br><br >
+Choice sweets<br>
+
+<select type="Choice" name="sweets" id="order-input">
+<option>Rasgulla </option>
+<option>Gulabjabun </option>
+<option value="Rasmaliyi">Rasmaliyi </option>
+<option value="Barfi">Barfi </option>
+<option value="Laddu"> Laddu</option>
+<option value="Pera"> Pera</option>
+<option value="Bread"> Bread</option>
+<option value="Samosha">Samosha </option>
+<option value="cahori">cahori</option>
+</select>
+<br><br>
+
+Quentity<br>
+<input type="text" name="quentity"id="order-input"></input >
+<br><br>
+
+Address<br>
+<textarea name="address"></textarea><br><br>
+
+<input type="submit" value="order Now!" id="submit-order"></input>
+
+</form>
+</fieldset>
+
+<div id="abt-us">
+<h1 id="abut-stile"> About us</h1>
+<hr>
+<p id="abut-text">This is a list of Indian sweets and desserts, also called
+mithai,a significant element in Indian cuisine. Indians are known for their 
+ unique taste and experimental behavior when it comes to food. Many 
+ Indian desserts are fried foods made with sugar, milk or condensed
+ milk. Ingredients and preferred types of dessert vary by region. In 
+ the eastern part of India, for example, most are based on milk products.
+ Many are flavoured with almonds and pistachios, spiced with cardamon, 
+ nutmeg, cloves and black pepper, and decorated with nuts, or with gold 
+ or silver leaf.[1]</p>
+</div>
+
+<div id="mor-sweets">
+<h1 id="more-sweets">More Sweets</h1>
+</div>
+
+<div id="sweets">
+<img src="image/e.jpg" id="sweets-pik">
+<a href="#fil-form"><button id="buy">Buy Now!</button></a>
+</div>
+
+<div id="sweets">
+<img src="image/f.jpg" id="sweets-pik">
+<a href="#fil-form"><button id="buy">Buy Now!</button></a>
+</div>
+
+<div id="sweets">
+<img src="image/g.jpg" id="sweets-pik">
+<a href="#fil-form"><button id="buy">Buy Now!</button></a>
+</div>
+
+<div id="sweets">
+<img src="image/h.jpg" id="sweets-pik">
+<a href="#fil-form"><button id="buy">Buy Now!</button></a>
+</div>
+
+<div id="sweets-end">
+<img src="image/i.jpg" id="sweets-pik">
+<a href="#fil-form"><button id="buy">Buy Now!</button></a>
+</div>
+
+</section>
+
+<footer>
+<div id="contect-us">
+<h1 id="contact-link">Contact us</h1>
+<address id="Website">Website: SweetsShop.com</address>
+<address id="Website">Phon No. : +91 9508585265</address>
+<address id="Website">Address: jhanjharpur</address>
+<address id="Website">Emil: baiju8029@gmail.com</address>
+<address id="Website">Pin Code: 847109</address>
+<address id="Website">Art By: Baiju kumar</address>
+</div>
+
+<div id="developer"> Develop By: Baiju kumar</div>
+
+<div id="social-link">
+<h1 id="contact-link">Follow us</h1>
+<a href="https://www.linkedin.com/feed/"><img src="image/link.png" id="logo"></a>
+<a href="https://www.instagram.com/"><img src="image/inst.jpg" id="logo"></a>
+<a href="https://www.facebook.com/"><img src="image/fac.jpg" id="logo"></a>
+</div>
+</footer>
+
+</body>
+</html>
